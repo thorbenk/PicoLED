@@ -17,7 +17,8 @@ enum DataByte {
 enum DataFormat {
     FORMAT_RGB=0,
     FORMAT_GRB=1,
-    FORMAT_WRGB=2
+    FORMAT_WRGB=2,
+    FORMAT_WGRB=3
 };
 struct Color {
     uint8_t red;

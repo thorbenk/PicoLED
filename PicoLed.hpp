@@ -48,6 +48,8 @@ namespace PicoLed {
                 return addLeds<T>(pioBlock, stateMachine, dataPin, numLeds, GREEN, RED, BLUE, NONE);
             case FORMAT_WRGB:
                 return addLeds<T>(pioBlock, stateMachine, dataPin, numLeds, RED, GREEN, BLUE, WHITE);
+            case FORMAT_WGRB:
+                return addLeds<T>(pioBlock, stateMachine, dataPin, numLeds, GREEN, RED, BLUE, WHITE);
         }
     }
 
